@@ -1,3 +1,4 @@
+import 'dart:ui';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -12,8 +13,13 @@ class HomePage extends StatelessWidget {
       body: Material(
         child: Center(
           child: Container(
-            color: Colors.amber,
-            child: Text('my $days days first app by $name'),
+            child: Text(
+              'my $days days first app by $name',
+              style: TextStyle(
+                fontSize: 20.0,
+                color: Colors.grey[700],
+              ),
+            ),
           ),
         ),
       ),
