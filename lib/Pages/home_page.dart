@@ -16,7 +16,7 @@ class HomePage extends StatelessWidget {
             child: Text(
               'my $days days first app by $name',
               style: TextStyle(
-                fontSize: 20.0,
+                fontSize: 24.0,
                 color: Colors.grey[700],
               ),
             ),
