@@ -12,7 +12,6 @@ class HomePage extends StatelessWidget {
       body: Material(
         child: Center(
           child: Container(
-            color: Colors.amber,
             child: Text('my $days days first app by $name'),
           ),
         ),
